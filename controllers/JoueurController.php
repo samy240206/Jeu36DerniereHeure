@@ -21,7 +21,7 @@ class JoueurController {
             exit;
         }
 
-        // Sanitize
+        
         $pseudo = htmlspecialchars($pseudo, ENT_QUOTES, 'UTF-8');
         if (mb_strlen($pseudo) > 50) {
             $pseudo = mb_substr($pseudo, 0, 50);

@@ -1,5 +1,5 @@
 <?php
-// index.php  — Routeur principal (Front Controller)
+
 session_start();
 
 require_once __DIR__ . '/config/database.php';
