@@ -1,10 +1,10 @@
 <?php
 
 
-define('DB_HOST', '192.168.56.10');
-define('DB_NAME', '36_derniere_heure');
-define('DB_USER', 'etudiant');      
-define('DB_PASS', 'etudiant');           
+define('DB_HOST', 'belkadi.slam.lab');
+define('DB_NAME', 'belkadi');
+define('DB_USER', 'belkadi');      
+define('DB_PASS', 'ejJk7559WjGR');           
 define('DB_CHARSET', 'utf8mb4');
 
 /**
