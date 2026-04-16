@@ -84,6 +84,7 @@ class JeuController {
         $choix = $stmt->fetch();
         if (!$choix) { header('Location: index.php?action=jouer'); exit; }
         Joueur::mettreAJourStats($joueurId, (int)$choix['degat_vie'], (int)$choix['degat_mental'], 10);
+        
         Page::enregistrerProgression($joueurId, (int)$choix['page_destination_id']);
         header('Location: index.php?action=jouer');
         exit;

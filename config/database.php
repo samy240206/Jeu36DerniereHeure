@@ -1,7 +1,7 @@
 <?php
 
 
-define('DB_HOST', '172.16.119.222');
+define('DB_HOST', '10.0.0.32');
 define('DB_NAME', '36_derniere_heure');
 define('DB_USER', 'etudiant');      
 define('DB_PASS', 'etudiant');           

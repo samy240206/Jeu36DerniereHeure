@@ -369,3 +369,11 @@ p { margin-bottom: 1rem; font-size: 0.95rem; }
     .stats-barre { flex-direction: column; }
     .score-valeur { margin-left: 0; }
 }
+
+/* === AGRANDISSEMENT === */
+.conteneur { max-width: 960px; padding: 2rem 2rem 4rem; }
+.carte { padding: 2.5rem 3rem; }
+p { font-size: 1.05rem; line-height: 1.95; }
+h2 { font-size: clamp(1.2rem, 3vw, 1.7rem); }
+
+
